@@ -1,0 +1,12 @@
+# ==================================================
+# Git Ignore Rules for Crypto Integrity Engine
+# CRITICAL: Prevent cryptographic key and data leaks
+# ==================================================
+
+# Block private cryptographic keys
+*.key
+
+# Block local encrypted/decrypted test files
+*.enc
+*.dec
+sample_cardholder_data.txt
